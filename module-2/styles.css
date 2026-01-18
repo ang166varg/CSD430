@@ -1,0 +1,76 @@
+/* ============================================================
+   Angela Vargas • CSD430 • 2.2 Assignment
+   External CSS for JSP dynamic table page
+   ============================================================ */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f6f7fb;
+  color: #1f2937;
+}
+
+.header {
+  padding: 24px 18px;
+  background: #111827;
+  color: white;
+}
+
+.header h1 {
+  margin: 0 0 6px 0;
+  font-size: 28px;
+}
+
+.course-tag {
+  margin: 0;
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+.card {
+  background: white;
+  margin: 16px 18px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.note {
+  margin-top: 10px;
+  padding: 10px;
+  background: #eef2ff;
+  border-left: 4px solid #4f46e5;
+  border-radius: 6px;
+}
+
+.genre-title {
+  margin: 18px 0 10px 0;
+  font-size: 18px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #f3f4f6;
+}
+
+.data-table tr:nth-child(even),
+.info-table tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.footer {
+  text-align: center;
+  padding: 18px;
+  color: #6b7280;
+}
